@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html,
+body {
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 100%;
+}
+.box {
+  width: 100%;
+}
+.box header {
+  width: 100%;
+  height: 0.5rem;
+  overflow: hidden;
+  background-color: #ff8a00;
+  text-align: center;
+  display: flex;
+}
+.box header a {
+  display: block;
+}
+.box header a:nth-child(1) {
+  width: 1.3rem;
+  height: 0.4rem;
+  background: url(练习1：找房无忧/素材/image/index/logo.jpg) no-repeat 0.1rem 0.08rem;
+  background-size: 1rem 0.35rem;
+}
+.box header a:nth-child(2) {
+  margin-left: 1.8rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(练习1：找房无忧/素材/image/index/my.jpg) no-repeat 0 0.05rem;
+  background-size: 0.3rem 0.35rem;
+}
+.box header a:nth-child(3) {
+  margin-left: 0.1rem;
+  width: 0.4rem;
+  height: 0.4rem;
+  background: url(练习1：找房无忧/素材/image/index/xiazai.jpg) no-repeat 0 0.05rem;
+  background-size: 0.3rem 0.35rem;
+}
+.box .xiao {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: white;
+  padding: 0 0.2rem;
+  line-height: 0.28rem;
+}
+.box .xiao h2 {
+  font-size: 0.21rem;
+  padding-top: 0.2rem;
+}
+.box .xiao .new {
+  font-size: 0.16rem;
+  background: url(练习1：找房无忧/素材/image/SecondHandList/phone.png) no-repeat right;
+  background-size: 0.15rem 0.2rem;
+}
+.box .xiao .new span {
+  color: #DD5542;
+}
+.box .xiao .time {
+  font-size: 0.14rem;
+  color: #cccccc;
+}
+.box .xiao .kuai {
+  padding: 0.1rem 0;
+  font-size: 0.16rem;
+}
+.box .xiao .kuai span {
+  padding: 0.05rem;
+  background-color: #DEE9F0;
+  color: #BCC5CF;
+}
+.box .jie {
+  margin-top: 0.2rem;
+  background-color: white;
+}
+.box .jie ul li {
+  display: flex;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.14rem;
+  margin: 0 0.2rem;
+  border-bottom: 1px solid #cccccc;
+}
+.box .jie ul li p {
+  width: 50%;
+}
+.box .jie ul li:last-child {
+  border: none;
+  text-align: center;
+  color: #cccccc;
+}
+.box .te {
+  margin-top: 0.2rem;
+  background-color: white;
+}
+.box .te ul li {
+  margin: 0 0.2rem;
+  border-bottom: 1px solid #cccccc;
+}
+.box .te ul li:nth-child(1) {
+  font-size: 0.22rem;
+  line-height: 0.5rem;
+  color: #ff8a00;
+}
+.box .te ul li:nth-child(2) {
+  font-size: 0.14rem;
+  line-height: 0.3rem;
+}
+.box .te ul li:nth-child(3) {
+  text-align: center;
+  color: #cccccc;
+  line-height: 0.5rem;
+  font-size: 0.16rem;
+  border: none;
+}
+.box .hu {
+  margin-top: 0.2rem;
+  background-color: white;
+}
+.box .hu .huxi {
+  margin: 0 0.2rem;
+  border-bottom: 1px solid #cccccc;
+  font-size: 0.22rem;
+  line-height: 0.5rem;
+  color: #ff8a00;
+}
+.box .hu ul li {
+  display: flex;
+  margin: 0.2rem;
+}
+.box .hu ul li .img {
+  flex: 1;
+  background: url(练习1：找房无忧/素材/image/SecondHandList/img4.png) no-repeat;
+  background-size: 0.9rem 1rem;
+}
+.box .hu ul li .text1 {
+  margin-left: 0.1rem;
+  flex: 3;
+}
+.box .hu ul li .text1 p {
+  font-size: 0.16rem;
+  line-height: 0.3rem;
+}
+.box .hu ul li .text1 p:nth-child(1) {
+  font-weight: bold;
+}
+.box .hu ul li .text1 p:last-child {
+  line-height: 0.5rem;
+}
+.box .hu ul li .text1 p:last-child span {
+  padding: 0.1rem;
+  background-color: #F4F7F9;
+  color: #8EA1B2;
+}
+.box .school {
+  margin-top: 0.2rem;
+  background-color: white;
+}
+.box .school ul li {
+  margin: 0 0.2rem;
+  font-size: 0.16rem;
+  border-bottom: 1px solid #cccccc;
+  line-height: 0.6rem;
+}
+.box .school ul li span {
+  color: #cccccc;
+  font-size: 0.14rem;
+}
+.box .school ul li:nth-child(1) {
+  font-size: 0.22rem;
+  font-weight: bold;
+}
+.box .school ul li:last-child {
+  border: none;
+  text-align: center;
+  color: #cccccc;
+}
+.box footer {
+  background-color: #2f3130;
+  position: absolute;
+  width: 100%;
+  font-size: 0.17rem;
+  color: #7B7D7C;
+}
+.box footer .top-text {
+  margin: 0 0.2rem;
+  padding: 0.15rem 0;
+  border-bottom: 1px solid #cccccc;
+}
+.box footer .bottom-box {
+  margin-top: 0.2rem;
+  font-size: 0.15rem;
+}
+.box footer .bottom-box .icon {
+  display: flex;
+}
+.box footer .bottom-box .icon .left {
+  box-sizing: border-box;
+  padding-left: 1rem;
+  width: 50%;
+  background: url(练习1：找房无忧/素材/image/index/apple.png) 0.6rem 0 no-repeat;
+  background-size: 0.3rem 0.35rem;
+}
+.box footer .bottom-box .icon .right {
+  box-sizing: border-box;
+  padding-left: 0.35rem;
+  width: 50%;
+  background: url(练习1：找房无忧/素材/image/index/android.png) no-repeat;
+  background-size: 0.3rem 0.35rem;
+}
+.box footer .bottom-box .txt {
+  padding-top: 0.1rem;
+  text-align: center;
+  line-height: 0.3rem;
+}
+.box footer .bottom-box .ico {
+  font-size: 0.12rem;
+  line-height: 0.2rem;
+  text-align: center;
+  padding-bottom: 0.1rem;
+}
