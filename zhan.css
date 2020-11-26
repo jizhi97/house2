@@ -7,9 +7,20 @@ html,
 body {
   background-color: #F5F5F5;
   width: 100%;
+  height: 100%;
+}
+#n {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
 }
 .box {
   width: 100%;
+  height: 100%;
 }
 .box header {
   width: 100%;
@@ -74,43 +85,54 @@ body {
   font-size: 0.2rem;
   line-height: 0.4rem;
 }
-.box nav > ul li a {
+.box nav > ul li #bot {
+  display: block;
   text-decoration: none;
   color: #676666;
   font-weight: bold;
 }
-.box nav > ul li a span {
+.box nav > ul li #bot span {
   display: inline-block;
   border: 0.05rem solid;
   border-color: #cccccc transparent transparent;
 }
-.box nav .li-box {
+.box nav > ul li .li-box {
+  z-index: 5;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  left: 0;
   width: 100%;
   overflow: hidden;
+  background-color: #F0F0F0;
 }
-.box nav .li-box .li-top {
+.box nav > ul li .li-box .li-top {
   float: left;
   width: 20%;
   text-align: center;
+  line-height: 0.5rem;
+  height: 100%;
 }
-.box nav .li-box .li-top .qu {
+.box nav > ul li .li-box .li-top .qu {
+  font-size: 0.2rem;
+  background-color: white;
+}
+.box nav > ul li .li-box .li-top .tie {
   font-size: 0.2rem;
 }
-.box nav .li-box .li-top .tie {
-  font-size: 0.2rem;
-}
-.box nav .li-box .qu-ul {
+.box nav > ul li .li-box .qu-ul {
   font-size: 0.18rem;
   float: left;
   width: 80%;
   overflow: hidden;
+  background-color: white;
 }
-.box nav .li-box .qu-ul li {
+.box nav > ul li .li-box .qu-ul li {
   float: left;
   width: 50%;
   box-sizing: border-box;
 }
-.box nav .li-box .qu-ul li a {
+.box nav > ul li .li-box .qu-ul li a {
   text-decoration: none;
   text-align: center;
   font-size: 0.16rem;
@@ -118,27 +140,33 @@ body {
   color: #ccc;
   line-height: 0.5rem;
 }
-.box nav .price {
+.box nav > ul li .price {
+  z-index: 5;
+  position: absolute;
+  left: 0;
   width: 100%;
   background-color: white;
 }
-.box nav .price .pri {
+.box nav > ul li .price .pri {
   font-size: 0.16rem;
   color: #cccccc;
 }
-.box nav .price .pri li {
+.box nav > ul li .price .pri li {
   margin: 0 0.3rem;
   line-height: 0.5rem;
   border-bottom: 1px solid #ccc;
 }
-.box nav .price .pri li:last-child {
+.box nav > ul li .price .pri li:last-child {
   border: none;
 }
-.box nav .house-xi {
+.box nav > ul li .house-xi {
+  z-index: 5;
+  position: absolute;
+  left: 0;
   width: 100%;
   background-color: #ffffff;
 }
-.box nav .house-xi ul li {
+.box nav > ul li .house-xi ul li {
   margin: 0 0.2rem;
   display: flex;
   justify-content: space-between;
@@ -147,10 +175,10 @@ body {
   align-items: center;
   border-bottom: 1px solid #ccc;
 }
-.box nav .house-xi ul li:last-child {
+.box nav > ul li .house-xi ul li:last-child {
   border: none;
 }
-.box nav .house-xi button {
+.box nav > ul li .house-xi button {
   display: block;
   margin: 0.2rem;
   width: 87%;
@@ -160,23 +188,26 @@ body {
   line-height: 0.4rem;
   text-align: center;
 }
-.box nav .geng-list {
+.box nav > ul li .geng-list {
+  position: absolute;
+  left: 0;
+  z-index: 5;
   width: 100%;
   background-color: white;
 }
-.box nav .geng-list .geng-area {
+.box nav > ul li .geng-list .geng-area {
   margin-top: 0.1rem;
   margin-left: 0.22rem;
   border-bottom: 1px solid #ccc;
 }
-.box nav .geng-list .geng-area h4 {
+.box nav > ul li .geng-list .geng-area h4 {
   line-height: 0.4rem;
   font-size: 0.16rem;
 }
-.box nav .geng-list .geng-area ul {
+.box nav > ul li .geng-list .geng-area ul {
   overflow: hidden;
 }
-.box nav .geng-list .geng-area ul li {
+.box nav > ul li .geng-list .geng-area ul li {
   font-size: 0.14rem;
   text-align: center;
   border: 1px solid #ccc;
