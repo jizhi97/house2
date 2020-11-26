@@ -45,15 +45,304 @@ html,body{
         }
     }
 
+    // 广告
+    .back{
+        position: relative;
+        width: 100%;
+        height: auto;
+        .img1{
+            width: 100%;
+        }
+        .flo{
+            position: absolute;
+            bottom: .2rem;
+            font-size: .18rem;
+            box-sizing: border-box;
+            margin: .2rem;
+            width: 3.4rem;
+            height: .5rem;
+            line-height: .5rem;
+            border: 2px solid #cccccc;
+            border-radius: 8px;
+            background: url(./练习1：找房无忧/素材/image/index/seach.jpg) .2rem .18rem no-repeat;
+            background-size: .2rem .2rem;
+            background-color: white;
+            .int{
+                box-sizing: border-box;
+                padding-left: .5rem;
+                width: 100%;
+                border: none;
+                outline: none;
+                background-color: transparent;
+            }
+        }
 
 
+       
+    }
+
+    // 图标
+    .icon1{
+        width: 100%;
+        height: 1.3rem;
+        box-sizing: border-box;
+        background-color: #FF8A00;
+        ul{
+            display: flex;
+
+            li{
+                box-sizing: border-box;
+                height: 100%;
+                
+                img{
+                    display: block;
+                    padding: .2rem 0 .1rem 0;
+                    padding-left: .2rem;
+                    width: 0.7rem;
+                    height: 0.7rem;
+                }
+                p{
+                    color: white;
+                    font-size: .16rem;
+                    margin-left: .15rem;
+                    padding-bottom: .2rem;
+                    text-align: center;
+                }
+            }
+        }
+           
+        
+    }
+
+    // 图片
+    .tu{
+        width: 100%;
+        margin-top: .2rem;
+        img{
+            width: 100%;
+        }
+    }
+
+    // 热门
+    .hot{
+        // margin-top: .2rem;
+        background-color: white;
+        width: 100%;
+        .title{
+            background-color: #ff8a00;
+            color: white;
+            font-size: .2rem;
+            padding-left: .3rem;
+            font-weight: bold;
+            p{
+                &:first-child{
+                    padding-top: .1rem;
+                    line-height: .3rem;
+                }
+                &:last-child{
+                    padding-bottom: .1rem;
+                    font-size: .16rem;
+                    line-height: .25rem;
+                }
+            }
+        }
+
+        ul{
+            li{
+               
+                margin: .2rem .2rem 0 .2rem;
+                padding-bottom: .2rem;
+                border-bottom: 2px solid red;
+                display: flex;
+                &:last-child{
+                    border: none;
+                }
+                .li-img{
+                    flex: 1;
+                    background: url(./练习1：找房无忧/素材/image/index/img1.jpg) no-repeat;
+                    background-size: .8rem 1.2rem;
+                }
+
+                .li-img1{
+                    flex: 1;
+                    background: url(./练习1：找房无忧/素材/image/index/img2.png) no-repeat;
+                    background-size: .8rem 1.2rem;
+                }
+
+                .li-img2{
+                    flex: 1;
+                    background: url(./练习1：找房无忧/素材/image/index/img3.png) no-repeat;
+                    background-size: .8rem 1.2rem;
+                }
+                .li-text{
+                    flex: 3;
+                    margin-left: .1rem;
+                    line-height: .3rem;
+                    h4{
+                        font-size: .2rem;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    .house-top{
+                        font-size: .16rem;
+                        overflow: hidden;
+                        color: #cccccc;
+                        
+                        span{
+                            display: block;
+                            &:first-child{
+                                float: left;
+                            }
+                            &:last-child{
+                                float: right;
+                                color: #ff8a00;
+                            }
+                        }
+                    }
+
+                    .house-bottom{
+                        font-size: .16rem;
+                        overflow: hidden;
+                        color: #cccccc;
+                        span{
+                            display: block;
+                            &:first-child{
+                                float: left;
+                            }
+                            &:last-child{
+                                float: right;
+                               
+                            }
+                        }
+                    }
+
+                    .red{
+                        font-size: .16rem;
+                        box-sizing: border-box;
+                        overflow: hidden;
+                        span{
+                            padding: .05rem;
+                            background-color:#F4F7F9;
+                            color: #A8C8DC;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // 关注
+    .zhu{
+        
+        width: 100%;
+        background-color: white;
+        margin-top: .2rem;
+        overflow: hidden;
+        .txt1{
+            font-size: .22rem;
+            display: flex;
+            justify-content: space-around;
+            border-bottom: 1px solid #ff8a00;
+            p{
+                color: #cccccc;
+                text-align: center;
+                line-height: .5rem;
+                width: 50%;
+            }
+            
+        }
+        .tex11{
+            padding-bottom: .2rem;
+            ul{
+                overflow: hidden;
+                padding-top: .1rem;
+                li{
+                    box-sizing: border-box;
+                   
+                    float: left;
+                    width: 50%;
+                    height: .3rem;
+                    line-height: .3rem;
+                    a{
+                        text-decoration: none;
+                        display: block;
+                        padding-left: .3rem;
+                        color: #cccccc;
+                        line-height: .3rem;
+                        font-size: .16rem;
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    // 固定
+    .gu{
+        width: 100%;
+        height: .5rem;
+        z-index: 99;
+        background-color: rgba(0, 0, 0, .5);
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        .gu-left{
+            flex: 1;
+            position: relative;
+            span{
+                display: block;
+                &:first-child{
+                    width: 0.2rem;
+                    height: 0.2rem;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: url(./练习1：找房无忧/素材/image/index/close.png) no-repeat;
+                    background-size: 0.2rem .2rem;
+                }
+                &:last-child{
+                    position: absolute;
+                    bottom: -.2rem;
+                    left: .3rem;
+                    width: .6rem;
+                    height: .6rem;
+                    background: url(./练习1：找房无忧/素材/image/index/download.png) no-repeat;
+                    background-size: .4rem .4rem;
+                }
+            }
+        }
 
 
+        .gu-mid{
+            flex: 2;
+            .gu-top{
+                font-size: .2rem;
+                color: white;
+            }
+            .gu-bot{
+                font-size: .14rem;
+                color: white;
+            }
+        }
+
+        .gu-right{
+            box-sizing: border-box;
+            flex: 1.5;
+            background-color: #FF8A00;
+            color: white;
+            text-align: right;
+            font-size: .18rem;
+            padding-top: .2rem;
+            padding-right: .1rem;
+            padding-bottom: .1rem;
+        }
+    }
 
     footer{
         background-color: #2f3130;
         position: absolute;
-        bottom: 0;
+        // bottom: 0;
         width: 100%;
         font-size: .17rem;
         color:#7B7D7C;
@@ -64,6 +353,7 @@ html,body{
         }
 
         .bottom-box{
+            background-color: #2f3130;
             margin-top: .2rem;
             font-size: .15rem;
             .icon{

@@ -42,10 +42,264 @@ body {
   background: url(练习1：找房无忧/素材/image/index/xiazai.jpg) no-repeat 0 0.05rem;
   background-size: 0.3rem 0.35rem;
 }
+.box .back {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.box .back .img1 {
+  width: 100%;
+}
+.box .back .flo {
+  position: absolute;
+  bottom: 0.2rem;
+  font-size: 0.18rem;
+  box-sizing: border-box;
+  margin: 0.2rem;
+  width: 3.4rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  background: url(练习1：找房无忧/素材/image/index/seach.jpg) 0.2rem 0.18rem no-repeat;
+  background-size: 0.2rem 0.2rem;
+  background-color: white;
+}
+.box .back .flo .int {
+  box-sizing: border-box;
+  padding-left: 0.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.box .icon1 {
+  width: 100%;
+  height: 1.3rem;
+  box-sizing: border-box;
+  background-color: #FF8A00;
+}
+.box .icon1 ul {
+  display: flex;
+}
+.box .icon1 ul li {
+  box-sizing: border-box;
+  height: 100%;
+}
+.box .icon1 ul li img {
+  display: block;
+  padding: 0.2rem 0 0.1rem 0;
+  padding-left: 0.2rem;
+  width: 0.7rem;
+  height: 0.7rem;
+}
+.box .icon1 ul li p {
+  color: white;
+  font-size: 0.16rem;
+  margin-left: 0.15rem;
+  padding-bottom: 0.2rem;
+  text-align: center;
+}
+.box .tu {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+.box .tu img {
+  width: 100%;
+}
+.box .hot {
+  background-color: white;
+  width: 100%;
+}
+.box .hot .title {
+  background-color: #ff8a00;
+  color: white;
+  font-size: 0.2rem;
+  padding-left: 0.3rem;
+  font-weight: bold;
+}
+.box .hot .title p:first-child {
+  padding-top: 0.1rem;
+  line-height: 0.3rem;
+}
+.box .hot .title p:last-child {
+  padding-bottom: 0.1rem;
+  font-size: 0.16rem;
+  line-height: 0.25rem;
+}
+.box .hot ul li {
+  margin: 0.2rem 0.2rem 0 0.2rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid red;
+  display: flex;
+}
+.box .hot ul li:last-child {
+  border: none;
+}
+.box .hot ul li .li-img {
+  flex: 1;
+  background: url(练习1：找房无忧/素材/image/index/img1.jpg) no-repeat;
+  background-size: 0.8rem 1.2rem;
+}
+.box .hot ul li .li-img1 {
+  flex: 1;
+  background: url(练习1：找房无忧/素材/image/index/img2.png) no-repeat;
+  background-size: 0.8rem 1.2rem;
+}
+.box .hot ul li .li-img2 {
+  flex: 1;
+  background: url(练习1：找房无忧/素材/image/index/img3.png) no-repeat;
+  background-size: 0.8rem 1.2rem;
+}
+.box .hot ul li .li-text {
+  flex: 3;
+  margin-left: 0.1rem;
+  line-height: 0.3rem;
+}
+.box .hot ul li .li-text h4 {
+  font-size: 0.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.box .hot ul li .li-text .house-top {
+  font-size: 0.16rem;
+  overflow: hidden;
+  color: #cccccc;
+}
+.box .hot ul li .li-text .house-top span {
+  display: block;
+}
+.box .hot ul li .li-text .house-top span:first-child {
+  float: left;
+}
+.box .hot ul li .li-text .house-top span:last-child {
+  float: right;
+  color: #ff8a00;
+}
+.box .hot ul li .li-text .house-bottom {
+  font-size: 0.16rem;
+  overflow: hidden;
+  color: #cccccc;
+}
+.box .hot ul li .li-text .house-bottom span {
+  display: block;
+}
+.box .hot ul li .li-text .house-bottom span:first-child {
+  float: left;
+}
+.box .hot ul li .li-text .house-bottom span:last-child {
+  float: right;
+}
+.box .hot ul li .li-text .red {
+  font-size: 0.16rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.box .hot ul li .li-text .red span {
+  padding: 0.05rem;
+  background-color: #F4F7F9;
+  color: #A8C8DC;
+}
+.box .zhu {
+  width: 100%;
+  background-color: white;
+  margin-top: 0.2rem;
+  overflow: hidden;
+}
+.box .zhu .txt1 {
+  font-size: 0.22rem;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #ff8a00;
+}
+.box .zhu .txt1 p {
+  color: #cccccc;
+  text-align: center;
+  line-height: 0.5rem;
+  width: 50%;
+}
+.box .zhu .tex11 {
+  padding-bottom: 0.2rem;
+}
+.box .zhu .tex11 ul {
+  overflow: hidden;
+  padding-top: 0.1rem;
+}
+.box .zhu .tex11 ul li {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+}
+.box .zhu .tex11 ul li a {
+  text-decoration: none;
+  display: block;
+  padding-left: 0.3rem;
+  color: #cccccc;
+  line-height: 0.3rem;
+  font-size: 0.16rem;
+}
+.box .gu {
+  width: 100%;
+  height: 0.5rem;
+  z-index: 99;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 0;
+  display: flex;
+}
+.box .gu .gu-left {
+  flex: 1;
+  position: relative;
+}
+.box .gu .gu-left span {
+  display: block;
+}
+.box .gu .gu-left span:first-child {
+  width: 0.2rem;
+  height: 0.2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(练习1：找房无忧/素材/image/index/close.png) no-repeat;
+  background-size: 0.2rem 0.2rem;
+}
+.box .gu .gu-left span:last-child {
+  position: absolute;
+  bottom: -0.2rem;
+  left: 0.3rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  background: url(练习1：找房无忧/素材/image/index/download.png) no-repeat;
+  background-size: 0.4rem 0.4rem;
+}
+.box .gu .gu-mid {
+  flex: 2;
+}
+.box .gu .gu-mid .gu-top {
+  font-size: 0.2rem;
+  color: white;
+}
+.box .gu .gu-mid .gu-bot {
+  font-size: 0.14rem;
+  color: white;
+}
+.box .gu .gu-right {
+  box-sizing: border-box;
+  flex: 1.5;
+  background-color: #FF8A00;
+  color: white;
+  text-align: right;
+  font-size: 0.18rem;
+  padding-top: 0.2rem;
+  padding-right: 0.1rem;
+  padding-bottom: 0.1rem;
+}
 .box footer {
   background-color: #2f3130;
   position: absolute;
-  bottom: 0;
   width: 100%;
   font-size: 0.17rem;
   color: #7B7D7C;
@@ -56,6 +310,7 @@ body {
   border-bottom: 1px solid #cccccc;
 }
 .box footer .bottom-box {
+  background-color: #2f3130;
   margin-top: 0.2rem;
   font-size: 0.15rem;
 }

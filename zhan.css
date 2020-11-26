@@ -68,62 +68,123 @@ body {
   border-top: 1px solid #cccccc;
   border-bottom: 1px solid #cccccc;
 }
-.box nav ul {
+.box nav > ul {
   display: flex;
   justify-content: space-around;
   font-size: 0.2rem;
   line-height: 0.4rem;
 }
-.box nav ul li a {
+.box nav > ul li a {
   text-decoration: none;
   color: #676666;
   font-weight: bold;
 }
-.box nav ul li a span {
+.box nav > ul li a span {
   display: inline-block;
   border: 0.05rem solid;
   border-color: #cccccc transparent transparent;
 }
-.box nav ul li .li-box {
+.box nav .li-box {
   width: 100%;
+  overflow: hidden;
 }
-.box nav ul li .li-box .li-top {
-  width: 100%;
-  display: flex;
+.box nav .li-box .li-top {
+  float: left;
+  width: 20%;
+  text-align: center;
 }
-.box nav ul li .li-box .li-top .qu {
-  flex: 1;
+.box nav .li-box .li-top .qu {
   font-size: 0.2rem;
-  color: #ff8a00;
 }
-.box nav ul li .li-box .li-top ul {
-  flex: 4;
+.box nav .li-box .li-top .tie {
+  font-size: 0.2rem;
 }
-.box nav ul li .li-box .li-top ul li {
+.box nav .li-box .qu-ul {
+  font-size: 0.18rem;
+  float: left;
+  width: 80%;
+  overflow: hidden;
+}
+.box nav .li-box .qu-ul li {
+  float: left;
   width: 50%;
   box-sizing: border-box;
+}
+.box nav .li-box .qu-ul li a {
+  text-decoration: none;
   text-align: center;
-  padding: 0.4rem;
+  font-size: 0.16rem;
+  display: block;
+  color: #ccc;
+  line-height: 0.5rem;
 }
-.box nav ul li .li-box .tie {
-  width: 20%;
-}
-.box nav ul li .price {
+.box nav .price {
   width: 100%;
   background-color: white;
 }
-.box nav ul li .price .pri {
-  display: flex;
-  align-items: flex-start;
+.box nav .price .pri {
   font-size: 0.16rem;
   color: #cccccc;
 }
-.box nav ul li .price .pri li {
-  margin: 0.3rem;
+.box nav .price .pri li {
+  margin: 0 0.3rem;
+  line-height: 0.5rem;
   border-bottom: 1px solid #ccc;
 }
-.box nav ul li .price .pri li:last-child {
+.box nav .price .pri li:last-child {
   border: none;
+}
+.box nav .house-xi {
+  width: 100%;
+  background-color: #ffffff;
+}
+.box nav .house-xi ul li {
+  margin: 0 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.4rem;
+  font-size: 0.14rem;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.box nav .house-xi ul li:last-child {
+  border: none;
+}
+.box nav .house-xi button {
+  display: block;
+  margin: 0.2rem;
+  width: 87%;
+  background-color: #ff8a00;
+  color: white;
+  border: none;
+  line-height: 0.4rem;
+  text-align: center;
+}
+.box nav .geng-list {
+  width: 100%;
+  background-color: white;
+}
+.box nav .geng-list .geng-area {
+  margin-top: 0.1rem;
+  margin-left: 0.22rem;
+  border-bottom: 1px solid #ccc;
+}
+.box nav .geng-list .geng-area h4 {
+  line-height: 0.4rem;
+  font-size: 0.16rem;
+}
+.box nav .geng-list .geng-area ul {
+  overflow: hidden;
+}
+.box nav .geng-list .geng-area ul li {
+  font-size: 0.14rem;
+  text-align: center;
+  border: 1px solid #ccc;
+  line-height: 0.25rem;
+  float: left;
+  width: 0.7rem;
+  margin-bottom: 0.1rem;
+  margin-right: 0.1rem;
 }
 .box main {
   width: 100%;
@@ -133,6 +194,9 @@ body {
   display: flex;
   margin: 0.2rem;
   padding-bottom: 0.2rem;
+}
+.box main ul li:last-child {
+  border: none;
 }
 .box main ul li .img {
   width: 1rem;
@@ -180,7 +244,6 @@ body {
 .box footer {
   background-color: #2f3130;
   position: absolute;
-  bottom: 0;
   width: 100%;
   font-size: 0.17rem;
   color: #7B7D7C;

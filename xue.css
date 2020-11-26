@@ -43,6 +43,13 @@ body {
   background: url(练习1：找房无忧/素材/image/index/xiazai.jpg) no-repeat 0 0.05rem;
   background-size: 0.3rem 0.35rem;
 }
+.box .imh {
+  width: 100%;
+}
+.box .imh img {
+  width: 100%;
+  height: 2rem;
+}
 .box .xiao {
   box-sizing: border-box;
   width: 100%;
@@ -181,6 +188,176 @@ body {
   text-align: center;
   color: #cccccc;
 }
+.box .loco {
+  margin-top: 0.2rem;
+  background-color: white;
+  width: 100%;
+}
+.box .loco .txt {
+  font-size: 0.22rem;
+  font-weight: bold;
+  margin: 0 0.2rem;
+  line-height: 0.5rem;
+  border-bottom: 1px solid #cccccc;
+}
+.box .loco #container {
+  height: 2rem;
+  margin: 0.2rem;
+}
+.box .house {
+  margin-top: 0.2rem;
+  background-color: white;
+}
+.box .house ul li {
+  font-size: 0.22rem;
+  line-height: 0.2rem;
+  overflow: hidden;
+}
+.box .house ul li:nth-child(1) {
+  padding: 0.2rem;
+  font-weight: bold;
+  border-bottom: 1px solid #cccccc;
+}
+.box .house ul li:nth-child(2) {
+  margin: 0 0.2rem;
+  padding: 0.2rem 0;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-bottom: 1px solid #cccccc;
+}
+.box .house ul li:nth-child(2) .house-img {
+  float: left;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url(练习1：找房无忧/素材/image/SecondHandList/img6.png);
+  background-size: 0.8rem 0.8rem;
+}
+.box .house ul li:nth-child(2) .house-text {
+  float: left;
+  margin-left: 0.1rem;
+  line-height: 0.25rem;
+  width: 70%;
+}
+.box .house ul li:nth-child(2) .house-text .house-top {
+  font-size: 0.16rem;
+  overflow: hidden;
+  color: #cccccc;
+}
+.box .house ul li:nth-child(2) .house-text .house-top span {
+  display: block;
+}
+.box .house ul li:nth-child(2) .house-text .house-top span:first-child {
+  float: left;
+}
+.box .house ul li:nth-child(2) .house-text .house-top span:last-child {
+  float: right;
+  color: #ff8a00;
+}
+.box .house ul li:nth-child(2) .house-text .house-bottom {
+  font-size: 0.16rem;
+  overflow: hidden;
+  color: #cccccc;
+}
+.box .house ul li:nth-child(2) .house-text .house-bottom span {
+  display: block;
+}
+.box .house ul li:nth-child(2) .house-text .house-bottom span:first-child {
+  float: left;
+}
+.box .house ul li:nth-child(2) .house-text .house-bottom span:last-child {
+  float: right;
+}
+.box .house ul li:nth-child(2) .house-text .blue {
+  padding: 0.05rem;
+  background-color: #F4F7F9;
+  color: #A8C8DC;
+  font-size: 0.16rem;
+}
+.box .house ul li:nth-child(2) .li {
+  float: left;
+  margin-top: 0.2rem;
+  margin-right: 0;
+  padding-left: 0.1rem;
+  line-height: 0.35rem;
+  background-color: #F2F2F2;
+  color: #191919;
+  font-size: 0.16rem;
+  font-weight: bold;
+  width: 100%;
+}
+.box .house ul li:nth-child(3) {
+  margin: 0 0.2rem;
+  padding: 0.2rem 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.box .house ul li:nth-child(3) .house-img {
+  float: left;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url(练习1：找房无忧/素材/image/SecondHandList/img7.png);
+  background-size: 0.8rem 0.8rem;
+}
+.box .house ul li:nth-child(3) .house-text {
+  float: left;
+  margin-left: 0.1rem;
+  line-height: 0.25rem;
+  width: 70%;
+}
+.box .house ul li:nth-child(3) .house-text .house-top {
+  font-size: 0.16rem;
+  overflow: hidden;
+  color: #cccccc;
+}
+.box .house ul li:nth-child(3) .house-text .house-top span {
+  display: block;
+}
+.box .house ul li:nth-child(3) .house-text .house-top span:first-child {
+  float: left;
+}
+.box .house ul li:nth-child(3) .house-text .house-top span:last-child {
+  float: right;
+  color: #ff8a00;
+}
+.box .house ul li:nth-child(3) .house-text .house-bottom {
+  font-size: 0.16rem;
+  overflow: hidden;
+  color: #cccccc;
+}
+.box .house ul li:nth-child(3) .house-text .house-bottom span {
+  display: block;
+}
+.box .house ul li:nth-child(3) .house-text .house-bottom span:first-child {
+  float: left;
+}
+.box .house ul li:nth-child(3) .house-text .house-bottom span:last-child {
+  float: right;
+}
+.box .house ul li:nth-child(3) .house-text .blue {
+  padding: 0.05rem;
+  background-color: #F4F7F9;
+  color: #A8C8DC;
+  font-size: 0.16rem;
+}
+.box .house ul li:nth-child(3) .li {
+  float: left;
+  margin-top: 0.2rem;
+  margin-right: 0;
+  padding-left: 0.1rem;
+  line-height: 0.35rem;
+  background-color: #F2F2F2;
+  color: #191919;
+  font-size: 0.16rem;
+  font-weight: bold;
+  width: 100%;
+}
+.box .house ul li:last-child {
+  border-top: 1px solid #cccccc;
+  text-align: center;
+  line-height: 0.5rem;
+  font-size: 0.16rem;
+  color: #767676;
+}
 .box footer {
   background-color: #2f3130;
   position: absolute;
@@ -224,4 +401,27 @@ body {
   line-height: 0.2rem;
   text-align: center;
   padding-bottom: 0.1rem;
+}
+.box footer .bott {
+  background-color: white;
+  padding-top: 0.2rem;
+  padding-left: 0.2rem;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  font-size: 0.16rem;
+}
+.box footer .bott span:first-child {
+  padding: 0.1rem 0.8rem;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  background: url(练习1：找房无忧/素材/image/SecondHandList/user.png) no-repeat 0.4rem 0.05rem;
+  background-size: 0.3rem 0.3rem;
+  background-color: #FF8A00;
+}
+.box footer .bott span:last-child {
+  padding: 0.1rem 0.3rem;
+  background: url(练习1：找房无忧/素材/image/SecondHandList/xin.png) no-repeat 0rem 0.05rem;
+  background-size: 0.3rem 0.3rem;
 }
